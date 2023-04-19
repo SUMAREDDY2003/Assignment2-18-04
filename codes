@@ -1,6 +1,6 @@
 #grades of students
 marks=int(input("Enter the marks of student:"))
-if marks>=75:
+if marks>=75 and marks<=100:
   printf("distinction-A+")
 elif marks>=65 and marks<75:
   print("First class-A")
